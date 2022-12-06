@@ -43,7 +43,7 @@
         };
 
         esc {
-            bindings = <&kp DEL>;
+            bindings = <&kp MINUS>;
             key-positions = <26 27>;
         };
 
