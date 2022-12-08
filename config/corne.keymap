@@ -52,9 +52,19 @@
             key-positions = <26 27>;
         };
 
-        new_combo {
+        btlayer {
             bindings = <&mo 3>;
             key-positions = <38 39>;
+        };
+
+        home {
+            bindings = <&kp HOME>;
+            key-positions = <6 7>;
+        };
+
+        end {
+            bindings = <&kp END>;
+            key-positions = <7 8>;
         };
     };
 
