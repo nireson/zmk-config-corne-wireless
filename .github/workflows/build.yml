@@ -44,6 +44,7 @@ jobs:
         with:
           name: firmware
           path: corne_left_nice_nano_v2.uf2
+          overwrite: true
       - name: West Build (Corne Right)
         run: west build --pristine -s zmk/app -b nice_nano_v2 -- -DSHIELD=corne_right -DZMK_CONFIG="${GITHUB_WORKSPACE}/config"
 
@@ -56,3 +57,4 @@ jobs:
         with:
           name: firmware
           path: corne_right_nice_nano_v2.uf2
+          overwrite: true
