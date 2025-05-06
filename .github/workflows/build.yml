@@ -42,7 +42,7 @@ jobs:
       - name: Archive (Corne Left)
         uses: actions/upload-artifact@v4
         with:
-          name: firmware
+          name: firmware_left
           path: corne_left_nice_nano_v2.uf2
           overwrite: true
       - name: West Build (Corne Right)
@@ -55,6 +55,6 @@ jobs:
       - name: Archive (Corne Right)
         uses: actions/upload-artifact@v4
         with:
-          name: firmware
+          name: firmware_right
           path: corne_right_nice_nano_v2.uf2
           overwrite: true
